@@ -18,7 +18,7 @@ public class HomeController {
 	
 	@GetMapping("/home")
 	public String home(Model model) {
-		model.addAttribute("message", "It is Working!!");
+		model.addAttribute("message", "Hi fellaaaaaaaas,I am Aayusha!! This is my first deployed project");
 		System.out.println("Hello");
 		return "index";
 	}
